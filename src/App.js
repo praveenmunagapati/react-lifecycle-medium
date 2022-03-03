@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import ConstructorMethod from './components/Mounting/constructorMethod'
-import GetDerivedStateFromPropsMethod from './components/Mounting/getDerivedStateFromPropsMethod'
-import RenderMethod from './components/Mounting/renderMethod'
-import ComponentDidMountMethod from './components/Mounting/componentDidMountMethod'
-import ShouldComponentUpdateMethod from './components/Updating/shouldComponentUpdateMethod'
-import GetSnapshotBeforeUpdateMethod from './components/Updating/getSnapshotBeforeUpdateMethod'
-import ComponentDidUpdateMethod from './components/Updating/componentDidUpdateMethod'
-import ComponentWillUnmountMethod from './components/Unmounting/componentWillUnmount'
+import React, { Component } from 'react';
+import ConstructorMethod from './components/Mounting/constructorMethod';
+import GetDerivedStateFromPropsMethod from './components/Mounting/getDerivedStateFromPropsMethod';
+import RenderMethod from './components/Mounting/renderMethod';
+import ComponentDidMountMethod from './components/Mounting/componentDidMountMethod';
+import ShouldComponentUpdateMethod from './components/Updating/shouldComponentUpdateMethod';
+import GetSnapshotBeforeUpdateMethod from './components/Updating/getSnapshotBeforeUpdateMethod';
+import ComponentDidUpdateMethod from './components/Updating/componentDidUpdateMethod';
+import ComponentWillUnmountMethod from './components/Unmounting/componentWillUnmount';
 
 export default class App extends Component {
   render() {
